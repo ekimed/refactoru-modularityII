@@ -88,22 +88,31 @@ time {
 }
 .tab-design {
   color: #2980b9;
-  border: 1px solid #8e44ad;
+  border: 2px solid #8e44ad;
   border-radius: 8px;
+  position: relative;
 }
 .tab-label {
   font-size: 16px;
   padding: 10px 20px;
 }
 .text-box {
-  padding: 10px;
+  padding: 15px;
   z-index: 101;
   background: #fff;
+  top: 50%;
+  margin-top: -1%;
+  color: #000;
 }
-.tab {
-  position: absolute;
+.background-color {
+  background-color: #fff;
 }
-ul {
+#current-tab {
   position: relative;
   z-index: 102;
+  background: #fff;
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  padding-bottom: 6px;
 }
